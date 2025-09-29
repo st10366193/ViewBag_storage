@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<a href="@Url.Action("Index" , "Home" , new {name ="jacob"})">
+    <button>greet me </button>
+</a>
+
+<p>Hello @ViewBag.user</p>
